@@ -1,0 +1,21 @@
+# Build artifacts
+.build/
+*.app/
+.build_number
+*.bak
+.DS_Store
+.swiftpm/
+
+# Private / not for the public repo
+BetaKit/
+ReferenceVideos/
+WireSharkScrubs/
+*.pcap
+
+# Local reference images & scratch
+*.jpeg
+*.jpg
+*.png
+*.webp
+# …except the app icon
+!AppIcon.png
