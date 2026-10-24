@@ -69,6 +69,23 @@ the app bundle — those could make macOS report the app as damaged after
 unzipping. Every release is now signature-checked after packaging, so a broken
 build can't reach the Latest Version folder.
 
+## v0.5.0 — Open source + Intel support
+
+Phantom Control is now **free and open source** under GPL-3.0:
+**https://github.com/danielbleckley/phantom-control**
+
+- **No more beta codes.** The license/serial system is gone entirely — every
+  feature (raw downloads, CineMag save, all of it) is unlocked for everyone,
+  forever. The welcome popup and the code-entry badge are gone too.
+- **Runs on Intel Macs.** The app is now a universal binary — native on both
+  Apple Silicon and Intel (macOS 14+). Older Mac Pros and Intel MacBooks in
+  rental houses can finally join. Intel output verified byte-identical.
+- Source, build instructions, and the per-camera protocol docs are all in the
+  repo. Found a bug or want a feature? Issues and pull requests are open.
+
+First launch on a new Mac: the app isn't notarized — right-click the app and
+choose **Open** the first time, then it opens normally forever after.
+
 ## v0.4.2 — Downloads now carry the camera's real color & exposure metadata
 
 Big correctness fix for how downloaded .cine files look in OTHER apps (Resolve,
